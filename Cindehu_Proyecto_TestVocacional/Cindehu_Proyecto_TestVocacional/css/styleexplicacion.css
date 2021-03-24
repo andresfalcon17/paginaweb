@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.expli{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url(/backgrounds/explicacions.jpg);
+    background-size: cover;
+}
+
+.explicacion{
+    margin-top: 250px;
+    color: #251a5d;
+    line-height: 1.5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.texto{
+    display: inline-block;
+    letter-spacing: 2px;
+    color:#911841;
+}
+
+.comenzar {
+    margin-left: 40px;
+    margin-top: -200px;
+	background-color:#911841;
+	border-radius:28px;
+	border:1px solid #251a5d;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
